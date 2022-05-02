@@ -392,4 +392,9 @@ QBShared.Items = {
 	['markedbills'] 				 = {['name'] = 'markedbills', 			  	  	['label'] = 'Marked Money', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'markedbills.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Money?'},
 	['labkey'] 			 			 = {['name'] = 'labkey', 						['label'] = 'Key', 						['weight'] = 500, 		['type'] = 'item', 		['image'] = 'labkey.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Key for a lock...?'},
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
+
+	-- rv-vehkeys
+	['vehiclekey'] 					 = {['name'] = 'vehiclekey',		['label'] = 'Chave de Carro',		['weight'] = 0,		['type'] = 'item',		['image'] = 'carkeys.png',		['unique'] = true,		['useable'] = true,		['shouldClose'] = true,		['combinable'] = nil,		['description'] = ''},
+	['ivehiclekey'] 				 = {['name'] = 'ivehiclekey',		['label'] = 'Chave de Carro',		['weight'] = 0,		['type'] = 'item',		['image'] = 'carkeys.png',		['unique'] = true,		['useable'] = false,	['shouldClose'] = false,	['combinable'] = nil,		['description'] = ''},
+	['keymaster'] 					 = {['name'] = 'keymaster',			['label'] = 'Canhão para Viatura',	['weight'] = 0,		['type'] = 'item',		['image'] = 'keymaster.png',	['unique'] = false,		['useable'] = true,		['shouldClose'] = true,		['combinable'] = nil,		['description'] = 'Este item permite trocar o canhão da viatura.'},
 }
